@@ -296,7 +296,7 @@ void Process1()
     token.Register(() =>
     {
         Console.Write("Task is cancelled!");
-        //return;
+        return;
     });
     for (int i = 0; i < int.MaxValue; i++)
     {
